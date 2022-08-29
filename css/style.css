@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.header {
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+    padding-top: 130px;
+    margin-bottom: 50px;
+}
+
+.header h1 {
+    font-size: 60px;
+    color: #FF5E19;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.header p {
+    color: white;
+    text-align: center;
+}
+
+.header img {
+    position: absolute;
+    height: 250px;
+    width: 220px;
+    top: 150px;
+    left: 00px;
+}
+
+#img {
+    position: absolute;
+    left: 900px;
+    width: 250px;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: black;
+    height: 100px;
+    text-align: center;
+    color: skyblue;
+    padding-top: 35px;
+}
+
+.container {
+    justify-content: center;
+}
+
+.card-btn {
+    color: white;
+    font-weight: 500;
+    background-color: indigo;
+    padding: 5px 60px;
+}
+
+.card {
+    height: 371px;
+}
+
+.card-img-top {
+    width: 264px;
+    height: 204px;
+}
+
+.card-body {
+    background-color: black;
+    text-align: center;
+
+}
+
+.card-title {
+    color: white;
+
+}
+
+.card-text {
+    color: skyblue;
+    margin-bottom: 20px;
+}
+
+button:disabled,
+button[disabled] {
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+}
+
+.budget {
+    text-align: left;
+}
+
+#per-player-cost {
+    border: 2px solid white;
+    padding: 3px 30px;
+
+}
